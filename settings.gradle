@@ -1,0 +1,2 @@
+include 'andEngine'
+project(':andEngine').projectDir = new File(settingsDir, './AndEngine')
