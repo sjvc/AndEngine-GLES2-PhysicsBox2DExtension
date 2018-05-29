@@ -1,6 +1,7 @@
 buildscript {
     repositories {
         mavenCentral()
+        jcenter()
     }
 
     dependencies {
@@ -8,11 +9,11 @@ buildscript {
     }
 }
 
+
 apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.0"
 
     defaultConfig {
         minSdkVersion 14
@@ -40,10 +41,10 @@ android {
             assets.srcDirs = ['assets']
         }
 
-        instrumentTest.setRoot('tests')
+        // instrumentTest.setRoot('tests')
     }
 }
 
 dependencies {
-    compile project(':andEngine')
+    implementation project(':andEngine')
 }
