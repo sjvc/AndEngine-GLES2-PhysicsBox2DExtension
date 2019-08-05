@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":andEnginePhysicsBox2DExtension" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/../../../DoodleJuggle" external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":andEnginePhysicsBox2DExtension" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/../../../Connect4Baviux/connect4Baviux" external.system.id="GRADLE" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="android-gradle" name="Android-Gradle">
       <configuration>
@@ -92,6 +92,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/compile_library_classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/compile_only_not_namespaced_r_class_jar" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/consumer_proguard_file" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/full_jar" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/intermediate-jars" />
